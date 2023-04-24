@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "Projeto de Infra",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 7600,
+      "services": [
+        {
+          "name": "Contratar um DevOps",
+          "cost": "5000",
+          "description": "DevOps para criar projeto na AWS",
+          "id": "79475653-9d65-4eb0-921b-9b12b6c6be52"
+        },
+        {
+          "name": "Certificação DevOps",
+          "cost": "2600",
+          "description": "Certificados AWS para os desenvolvedores ",
+          "id": "89d0fc2a-baa1-4549-aa34-32e1713fd8dd"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Desenvolvimento do novo site",
+      "budget": "3000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2200,
+      "services": [
+        {
+          "name": "Contratação de Desenvolvedor",
+          "cost": "2200",
+          "description": "Contratar Desenvolvedor Kotlin",
+          "id": "48afa5c1-1592-481b-ae0a-19ed0460ebec"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
